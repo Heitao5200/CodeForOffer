@@ -21,22 +21,31 @@ python里面的二维数组，主要有 list 和 numpy.array 两种。其实还�
 numpy arrays (ndarrays) 可以是多维的。
 [ list 和 numpy.array 的区别](https://blog.csdn.net/qq_30490125/article/details/51445390)
 
-#### python中的数组有哪些语法？
-[Python语法：数组](https://blog.csdn.net/qzc70919700/article/details/72983513)
-
-
-#### 怎么输入数组和整数
-
-#### 判断出整数
 
 ### 解题思路
-这是一个排序问题，排完的同时，判断是数组中否存在给定整数
+此题是判断数组中是否存在某个元素
+可以用[target in array[j]](https://blog.csdn.net/qzc70919700/article/details/72983513)
+对这个二维数组里面的每个一维数组遍历 判断是否存该元素
 
 ### 程序
-
+    # -*- coding:utf-8 -*-
+    class Solution:
+        # array 二维列表
+        def Find(self, target, array):
+            # write code here
+            rows = len(array) - 1
+            cols= len(array[0]) - 1
+            i = rows
+            j = 0
+            while j <= i:
+                result = target in array[j]
+                j += 1
+                if result == True:
+                    return True
+            return False
 
 ### 补充知识点
 
 python中的数组
 
-[Python 语法第 3 讲：数组](https://blog.csdn.net/qzc70919700/article/details/72983513)
+[Python 语法：数组](https://blog.csdn.net/qzc70919700/article/details/72983513)

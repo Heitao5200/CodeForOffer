@@ -19,17 +19,17 @@ python2.7.3
 倒序
 
 ### 程序
-class Solution:
-    # 返回从尾部到头部的列表值序列，例如[1,2,3]
-    def printListFromTailToHead(self, listNode):
-        # write code here
-        ret = []
-        head = listNode
-        while(head):
-            ret.append(head.val)
-            head = head.next
-        ret.reverse()
-        return ret
+    class Solution:
+        # 返回从尾部到头部的列表值序列，例如[1,2,3]
+        def printListFromTailToHead(self, listNode):
+            # write code here
+            ret = []
+            head = listNode
+            while(head):
+                ret.append(head.val)
+                head = head.next
+            ret.reverse()
+            return ret
 
 ### 补充知识点
 [python 数据结构之链表（一）](https://www.cnblogs.com/king-ding/p/pythonchaintable.html)

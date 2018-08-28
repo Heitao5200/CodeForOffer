@@ -32,17 +32,17 @@ python2.7.3
 
 ### 补充知识点
 #### python 中字符串的常见操作
-如果我们想要查看以下功能：help（mystr .find）
+如果我们想要查看以下功能：help（mystr.find）
 
 * find
 
-    例：mystr=“hello world itcast”  mystr.find("hello")  结果为 6
+    例：mystr=“hello world itcast” mystr.find("hello")结果为6
 
-    find 括号中填写要查找的内容，如果找不到返回 - 1，找到返回从左往右找到的第一个位置
+    find括号中填写要查找的内容，如果找不到返回 -1，找到返回从左往右找到的第一个位置
 
 * index
 
-    功能和 find 一样，只是找不到时，这个返回错误
+    功能和find一样，只是找不到时，这个返回错误
 
 * rfind
 
@@ -56,12 +56,13 @@ python2.7.3
 
     统计字符串中出现的次数，没有出现一次返回 0
 
-    例：mystr.count("itcast") 结果为 1
+    例：mystr.count("itcast")结果为 1
 
 * replace
 
-    替换，参数 1：源  参数 2：目标  但是原来的并没有改变，只是显示一次改变的结果，因为这是不可变类型，除非用一个变量重新接收
-
+    替换，参数 1：源 参数 2：目标  
+    但是原来的并没有改变，只是显示一次改变的结果，因为这是不可变类型，除非用一个变量重新接收
+    
     例：mystr.replace("world","WORLD") 用大写的替换小写的值
 
 * split
@@ -96,35 +97,35 @@ python2.7.3
 
 * lower
 
-    转换 mystr 中所有大写字符为小写
+    转换mystr中所有大写字符为小写
 
 * upper
 
-    转换 mystr 中所有小写字符为大写
+    转换mystr中所有小写字符为大写
 
 * ljust  rjust
 
-    返回一个原字符串左（右）对齐，并使用空格填充至长度 width 的新字符串
+    返回一个原字符串左（右）对齐，并使用空格填充至长度width的新字符串
 
-    mystr.ljust(10) 长度不够的用空格填充
+    mystr.ljust(10)长度不够的用空格填充
 
 * center
 
-    返回一个原字符串居中，并使用空格填充长度 width 的新字符串
+    返回一个原字符串居中，并使用空格填充长度width的新字符串
 
 * lstrip rstrip strip
 
-    删除 mystr 字符串前端的空白字符
+    删除mystr字符串前端的空白字符
     
-    删除 mystr 字符串末端的空白字符
+    删除mystr字符串末端的空白字符
     
-    删除 mystr 字符串两端的空白字符
+    删除mystr字符串两端的空白字符
        
-    如果要删除多个不同字符串前后的空白字符和有 \ t 出现的情况 mystr.split() 就什么都不加
+    如果要删除多个不同字符串前后的空白字符和有\t出现的情况mystr.split()就什么都不加
 
 * partition
 
-    把 mystr 以 str 分割成三部分，str 前，str 和 str 后
+    把 mystr 以str分割成三部分，str前，str和str后
     
     mystr=‘hello world itcast and it’
     
@@ -148,7 +149,7 @@ python2.7.3
 
 * isalpha
 
-    如果 mystr 所有的字符都是字母，返回 true
+    如果mystr所有的字符都是字母，返回 true
     
     mystr.isalpha()
 

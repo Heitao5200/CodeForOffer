@@ -16,16 +16,16 @@ python2.7.3
 ### 题目理解
 
 #### 什么是二维数组
-python里面没有数组的概念，而是列表(List), 即二维列表相当于二维数组 。
-python里面的二维数组，主要有 list 和 numpy.array 两种。其实还有 matrices（必须是 2 维的），
+python里面没有数组的概念，而是列表(List),即二维列表相当于二维数组 。
+python里面的二维数组，主要有list和numpy.array两种。其实还有matrices（必须是2维的），
 numpy arrays (ndarrays) 可以是多维的。
-[ list 和 numpy.array 的区别](https://blog.csdn.net/qq_30490125/article/details/51445390)
+[list和numpy.array的区别](https://blog.csdn.net/qq_30490125/article/details/51445390)
 
 
 ### 解题思路
 此题是判断数组中是否存在某个元素
 可以用[target in array[j]](https://blog.csdn.net/qzc70919700/article/details/72983513)
-对这个二维数组里面的每个一维数组遍历 判断是否存该元素
+对这个二维数组里面的每个一维数组遍历，判断是否存该元素
 
 ### 程序
     # -*- coding:utf-8 -*-
@@ -48,4 +48,4 @@ numpy arrays (ndarrays) 可以是多维的。
 
 python中的数组
 
-[Python 语法：数组](https://blog.csdn.net/qzc70919700/article/details/72983513)
+[Python语法：数组](https://blog.csdn.net/qzc70919700/article/details/72983513)

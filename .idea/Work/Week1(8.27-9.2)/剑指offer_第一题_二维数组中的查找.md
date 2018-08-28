@@ -26,3 +26,7 @@ python2.7.3
 
 
 ### 补充知识点
+
+python中的数组
+
+[Python 语法第 3 讲：数组](https://blog.csdn.net/qzc70919700/article/details/72983513)

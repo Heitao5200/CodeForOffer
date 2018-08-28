@@ -26,7 +26,7 @@ python2.7.3
             while(head):
                 ret.append(head.val) #将值添加到列表
                 head = head.next
-            ret.reverse()
+            ret.reverse() #倒序输出
             return ret
 
 ### 补充知识点

@@ -22,12 +22,10 @@ python2.7.3
 
 ### 程序
     # -*- coding:utf-8 -*-
-    import re
     class Solution:
-        # s 源字符串
         def replaceSpace(self, s):
             # write code here
-            return re.sub(" ","%20",s)
+            return s.replace(" ","%20") #返回替换之后的字符串
 
 
 ### 补充知识点

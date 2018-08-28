@@ -20,13 +20,11 @@ python2.7.3
 
 ### 程序
     class Solution:
-        # 返回从尾部到头部的列表值序列，例如[1,2,3]
         def printListFromTailToHead(self, listNode):
-            # write code here
             ret = [] #定义空列表
             head = listNode
             while(head):
-                ret.append(head.val)
+                ret.append(head.val) #将值添加到列表
                 head = head.next
             ret.reverse()
             return ret

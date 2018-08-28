@@ -32,13 +32,13 @@ numpy arrays (ndarrays) 可以是多维的。
     class Solution:
         def Find(self, target, array):
             # write code here
-            rows = len(array) - 1 # 二维数组里的一维数组的个数
+            rows = len(array) - 1  # 二维数组里的一维数组的个数
             i = rows
             j = 0
             while j <= i:
                 result = target in array[j] #判断是否存该元素
                 j += 1
-                if result == True:# 存在则返回  不存在则继续循环 最终返回False
+                if result == True:   # 存在则返回  不存在则继续循环 最终返回False
                     return True
             return False
 

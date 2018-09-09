@@ -14,15 +14,41 @@ NOTE：给出的所有元素都大于 0，若数组大小为 0，请返回 0。
 
 ### 题目理解
 
-什么是数组？
+[什么是数组？](https://blog.csdn.net/liushut/article/details/77994978)
 
+非递减排序:就是从小到大或者允许中间有相等的情形
 
 ### 解题思路
 
+找出数组的最小元素
+在所给数组从最小值前切分
+调换位置
 
+### 程序(还需理解)
 
-### 程序
+```
+# -*- coding:utf-8 -*-
+class Solution:
+    def minNumberInRotateArray(self, rotateArray):
+        # write code here
+        if rotateArray == []:
+            return 0
+        _len = len(rotateArray)
+        left = 0
+        right = _len - 1
+        while left <= right:
+            mid = int((left + right) >> 1)
+            if rotateArray[mid]<rotateArray[mid-1]:
+                return rotateArray[mid]
+            if rotateArray[mid] >= rotateArray[right]:
+                # 说明在【mid，right】之间
+                left = mid + 1
+            else:
+                # 说明在【left，mid】之间
+                right = mid - 1
+        return rotateArray[mid]
 
+```
 
 
 ### 补充知识点

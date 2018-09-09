@@ -17,6 +17,9 @@ python2.7.3
 ### 题目理解
 [二叉树及其三种遍历](https://blog.csdn.net/qq_40772692/article/details/79343914)
 
+二叉树的意义是什么？
+[二叉树的好处](https://blog.csdn.net/zealot_2002/article/details/8244436)
+
 #### 什么是二叉树
 
 在计算机科学中，二叉树是每个节点最多有两个子树的树结构。通常子树被称作 “左子树” 和“右子树”，

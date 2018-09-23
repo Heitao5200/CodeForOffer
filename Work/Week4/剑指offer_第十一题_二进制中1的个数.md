@@ -46,12 +46,12 @@ python2.7.3
     class Solution:
         def NumberOf1( self,n):
             if n >= 0:
-                count1 = bin(n).count("1")
+                count_1 = bin(n).count("1")
     
             else:
                 n = abs(n)
                 count1 = 32 - bin(n - 1).count("1")
-            return print(count1)
+            return count_1
 
 
 ### 补充知识点

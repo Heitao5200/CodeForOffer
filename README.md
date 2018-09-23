@@ -2,7 +2,7 @@
 
 ## 为什么会写这个project
 当然是为了赚钱啊!!!娶个漂亮老婆，走上人生巅峰！！！
-![image](../picture/work/130063604698672953.png)
+![image](../picture/work/做个俗人.png)
 
 ## 平台
 

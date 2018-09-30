@@ -48,8 +48,8 @@ python2.7.3
 [python中对列表的所有操作方法](https://blog.csdn.net/kingsm06507/article/details/76735906)
 
 * list和array的相互转换
-
-    u = array([[1,2],[3,4]])
-    m = u.tolist()   #转换为list
-    m.remove(m[0])    #移除m[0]
-    m = np.array(m)    #转换为array
+    
+        u = array([[1,2],[3,4]])
+        m = u.tolist()   #转换为list
+        m.remove(m[0])    #移除m[0]
+        m = np.array(m)    #转换为array

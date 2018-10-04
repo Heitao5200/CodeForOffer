@@ -12,7 +12,18 @@ python2.7.3
 
 
 ### 题目理解
-当 $$ \sum_{i=1}^m ( y^{ (i) } - {\hat y}^{ (i) } )^2 $$
+ \sideset{^1_2}{^3_4}\bigotimes 
+
+\sum_{i=1}^m ( y^{ (i) } - {\hat y}^{ (i) } )^2 
+
+and \quad \prod_{i=1}^n \frac{1}{i^2} \quad and \quad \bigcup_{i=1}^{2} R
+
+
+
+ f(x_i) = wx_i + b，使得 f(x_i)\simeq y_i \tag{3.3}
+
+
+
 
 
 ### 解题思路

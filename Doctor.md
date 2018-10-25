@@ -103,3 +103,16 @@
 [深圳大学2018年博士研究生招生简章](http://kaobo.koolearn.com/20171113/821502.html)
 
 [深圳大学2018博士研究生招生专业目录](http://kaobo.koolearn.com/20171113/821504.html)
+
+## 中国人民大学
+
+[中国人民大学国际关系学院2018博士研究生招生专业目](http://kaobo.koolearn.com/20171207/821906.html)
+
+[中国人民大学2018年博士研究生招生简章](http://sf.ruc.edu.cn/yjswz/info/1121/1216.htm)
+
+
+## 外交学院
+
+[外交学院2018年博士研究生招生简章](http://kaobo.koolearn.com/20171109/821446.html)
+
+[外交学院2018年博士研究生招生专业目录](http://kaobo.koolearn.com/20171109/821447.html)
